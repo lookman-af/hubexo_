@@ -1,5 +1,7 @@
 # Deployment pipeline design
 
+[Pipeline overview and draft status](README.md) · [Repository home](../../README.md)
+
 ```mermaid
 flowchart LR
   PR[Human or AI pull request] --> CI[Unprivileged validation]

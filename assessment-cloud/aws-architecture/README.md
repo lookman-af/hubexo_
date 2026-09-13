@@ -1,18 +1,16 @@
-# AWS architecture design
+# 1. Architecture Design
 
-Scope: Part 1, architecture design for 30 global product teams, 300 engineers,
-Development/Test/Staging/Production, and governed AI engineering agents.
+[Repository home](../../README.md) · [Assessment index](../README.md) · [Next: Design Document](../aws-design-document/README.md)
 
-## Deliverables
+AWS Control Tower landing zone and Amazon EKS architecture for Development, Test,
+Staging, and Production.
 
-- `../../output/pdf/aws-control-tower-architecture.pdf`:
-  four A4 landscape pages, entirely in English.
-- `aws-landing-zone.svg`: vector account/governance diagram.
-- `aws-production-workload.svg`: vector production workload and recovery diagram.
+## Read the deliverables
 
-The PDF contains two diagrams and supporting explanations. This is an AWS-only
-architecture proposal. The earlier Azure Terraform example remains a separate
-deliverable and does not implement this AWS design.
+- [Architecture Design PDF](aws-control-tower-architecture.pdf) — four A4 landscape pages in English, with diagrams and supporting explanations.
+- [Landing zone diagram](aws-landing-zone.svg) — account structure and governance.
+- [Production workload diagram](aws-production-workload.svg) — EKS workload and recovery.
+- [Terraform implementation](../aws-terraform-vault/README.md) — the bounded EKS and HashiCorp Vault example.
 
 ## Assumptions and boundaries
 
@@ -31,9 +29,6 @@ deliverable and does not implement this AWS design.
 - SLO 99.9%, RTO 60 minutes and RPO 15 minutes are proposed targets, not validated guarantees.
 - No AWS resources were provisioned.
 
-The requested team-size banner and dated/icon-release footer have been removed.
-Only page numbering remains in the footer. Diagram SVGs match the updated PDF.
-
 ## Official icon provenance
 
 Source page: https://aws.amazon.com/architecture/icons/
@@ -47,7 +42,7 @@ constitute AWS certification or endorsement of this proposal.
 
 ## Rebuild / verification
 
-`build_architecture.py` uses ReportLab, svglib and PyMuPDF. It outputs the PDF,
+[build_architecture.py](build_architecture.py) uses ReportLab, svglib and PyMuPDF. It outputs the PDF into this folder,
 vector diagrams and page renders. PDF page count is asserted to equal four;
 all four page renders are inspected visually before delivery.
 

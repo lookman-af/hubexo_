@@ -10,7 +10,7 @@ import fitz
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
-OUT = ROOT / 'output/pdf'
+OUT = HERE
 TMP = ROOT / 'tmp/pdfs'
 OUT.mkdir(parents=True, exist_ok=True)
 TMP.mkdir(parents=True, exist_ok=True)

@@ -1,5 +1,9 @@
 # Infrastructure-as-Code Example: AWS EKS and HashiCorp Vault
 
+[Repository home](../../README.md) · [Assessment index](../README.md) · [Previous: Design Document](../aws-design-document/README.md) · [Next: Pipeline](../deployment-pipeline/README.md)
+
+[Download the Terraform ZIP](aws-eks-vault-terraform.zip) · [Deployment guide](docs/deployment.md) · [Verification report](docs/verification.md)
+
 This assessment example provisions an AWS workload foundation, a private HashiCorp
 Vault cluster, Vault policies, and a Kubernetes application that receives secrets at
 runtime. It emphasizes reusable structure, environment isolation, identity, and clear
