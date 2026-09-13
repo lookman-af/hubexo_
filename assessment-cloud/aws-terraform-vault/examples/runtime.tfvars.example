@@ -1,0 +1,8 @@
+account_id = "111122223333"
+region = "eu-west-1"
+cluster_name = "orders-dev"
+unseal_key_arn = "arn:aws:kms:eu-west-1:111122223333:key/REPLACE_FROM_FOUNDATION_OUTPUT"
+vault_role_arn = "arn:aws:iam::111122223333:role/orders-dev-vault"
+vault_tls_secret_name = "vault-server-tls"
+application = "orders"
+vault_ca_cert_file = "/secure/path/public-vault-ca.pem"

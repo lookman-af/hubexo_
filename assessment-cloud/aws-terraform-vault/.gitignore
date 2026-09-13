@@ -1,0 +1,10 @@
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.backend.hcl
+crash.log
+*.pem
+*.key
+*.crt

@@ -1,0 +1,5 @@
+vault_address = "https://vault-active.vault.svc:8200"
+vault_ca_cert_file = "/secure/path/public-vault-ca.pem"
+environment = "dev"
+application = "orders"
+# VAULT_TOKEN is injected into the trusted runtime environment, never included here.

@@ -1,0 +1,17 @@
+account_id = "111122223333"
+region = "eu-west-1"
+environment = "dev"
+name = "orders"
+owner = "team-orders"
+cost_center = "commerce"
+vpc_cidr = "10.40.0.0/16"
+availability_zones = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+kubernetes_version = "1.35"
+platform_deployer_role_arn = "arn:aws:iam::111122223333:role/protected-platform-deployer"
+# Replace every placeholder with a reviewed version supported by the target EKS/region.
+addon_versions = {
+  coredns = "REPLACE_WITH_PINNED_VERSION"
+  kube_proxy = "REPLACE_WITH_PINNED_VERSION"
+  vpc_cni = "REPLACE_WITH_PINNED_VERSION"
+  ebs_csi = "REPLACE_WITH_PINNED_VERSION"
+}

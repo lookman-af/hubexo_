@@ -1,0 +1,9 @@
+bucket = "REPLACE_WITH_BOOTSTRAPPED_STATE_BUCKET"
+key = "orders/dev/01-foundation/terraform.tfstate"
+region = "eu-west-1"
+encrypt = true
+use_lockfile = true
+# Optional customer-managed key; bootstrap and grant only the required role access.
+# kms_key_id = "arn:aws:kms:eu-west-1:111122223333:key/REPLACE_WITH_STATE_KEY"
+# Use distinct keys for stages 02-04; distinct access boundaries for production.
+# No credentials or access keys belong in backend files.

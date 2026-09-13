@@ -1,0 +1,6 @@
+account_id = "111122223333"
+region = "eu-west-1"
+cluster_name = "orders-dev"
+environment = "dev"
+application = "orders"
+image_digest = "111122223333.dkr.ecr.eu-west-1.amazonaws.com/orders@sha256:REPLACE_WITH_APPROVED_DIGEST"
