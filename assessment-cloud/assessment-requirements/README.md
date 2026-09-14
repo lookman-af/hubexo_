@@ -13,3 +13,4 @@ platform; the Terraform example implements a subset, as recorded in its
 | 3. Security & Access | Human access, service identity, production controls, and secrets | [Security approach](part-3-security-access.md) |
 | 4. Platform Engineering | Self-service infrastructure, deployment, and safe service consumption | [Platform approach](part-4-platform-engineering.md) |
 | 5. FinOps | Investigating a 40% cost increase, metrics, optimisation, and risk | [FinOps approach](part-5-finops.md) |
+| 6. Agentic AI Governance | Identity, authorisation, human oversight, auditability, and emergency controls | [AI governance approach](part-6-agentic-ai-governance.md) |

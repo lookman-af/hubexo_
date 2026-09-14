@@ -26,6 +26,7 @@ before it serves as the AWS EKS deployment specification.
 | 3. Security & Access | Human access, service identity, production controls, and secrets | [Security approach](assessment-cloud/assessment-requirements/part-3-security-access.md) |
 | 4. Platform Engineering | Self-service infrastructure, deployment, and safe service consumption | [Platform approach](assessment-cloud/assessment-requirements/part-4-platform-engineering.md) |
 | 5. FinOps | Investigating a 40% cost increase, metrics, optimisation, and risk | [FinOps approach](assessment-cloud/assessment-requirements/part-5-finops.md) |
+| 6. Agentic AI Governance | Identity, authorisation, human oversight, auditability, and emergency controls | [AI governance approach](assessment-cloud/assessment-requirements/part-6-agentic-ai-governance.md) |
 
 [Assessment Requirements overview](assessment-cloud/assessment-requirements/README.md)
 

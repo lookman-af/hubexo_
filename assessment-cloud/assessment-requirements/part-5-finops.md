@@ -1,6 +1,6 @@
 # Part 5 — FinOps
 
-[Requirements index](README.md) · [Repository home](../../README.md) · [Previous: Platform Engineering](part-4-platform-engineering.md)
+[Requirements index](README.md) · [Repository home](../../README.md) · [Previous: Platform Engineering](part-4-platform-engineering.md) · [Next: Agentic AI Governance](part-6-agentic-ai-governance.md)
 
 ## Scenario: costs rise 40% in three months
 
