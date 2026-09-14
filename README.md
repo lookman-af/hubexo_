@@ -3,11 +3,11 @@
 Architecture and engineering assessment for an AWS platform using Amazon EKS and
 HashiCorp Vault across Development, Test, Staging, and Production.
 
-## Start here
+## 2. Deliverables
 
 Read the sections in order. Each folder contains its documents and supporting files.
 
-| Part Deliverables | Guide | Main deliverable |
+| Part | Guide | Main deliverable |
 | --- | --- | --- |
 | 1. Architecture Design | [Architecture overview](assessment-cloud/aws-architecture/README.md) | [PDF — 4 pages](assessment-cloud/aws-architecture/aws-control-tower-architecture.pdf) |
 | 2. Design Document | [Design overview](assessment-cloud/aws-design-document/README.md) | [PDF — 6 pages](assessment-cloud/aws-design-document/aws-eks-design-document.pdf) |
@@ -23,6 +23,9 @@ before it serves as the AWS EKS deployment specification.
 | --- | --- | --- |
 | 1. Cloud Architecture | Reliability, security, scalability, cost, and governance | [Architecture approach](assessment-cloud/assessment-requirements/part-1-cloud-architecture.md) |
 | 2. Observability | Monitoring, logging, tracing, alerting, dashboards, and AI activity | [Observability approach](assessment-cloud/assessment-requirements/part-2-observability.md) |
+| 3. Security & Access | Human access, service identity, production controls, and secrets | [Security approach](assessment-cloud/assessment-requirements/part-3-security-access.md) |
+| 4. Platform Engineering | Self-service infrastructure, deployment, and safe service consumption | [Platform approach](assessment-cloud/assessment-requirements/part-4-platform-engineering.md) |
+| 5. FinOps | Investigating a 40% cost increase, metrics, optimisation, and risk | [FinOps approach](assessment-cloud/assessment-requirements/part-5-finops.md) |
 
 [Assessment Requirements overview](assessment-cloud/assessment-requirements/README.md)
 

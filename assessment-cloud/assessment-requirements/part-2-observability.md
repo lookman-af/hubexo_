@@ -1,6 +1,6 @@
 # Part 2 — Observability
 
-[Requirements index](README.md) · [Repository home](../../README.md) · [Previous: Cloud Architecture](part-1-cloud-architecture.md)
+[Requirements index](README.md) · [Repository home](../../README.md) · [Previous: Cloud Architecture](part-1-cloud-architecture.md) · [Next: Security & Access](part-3-security-access.md)
 
 ## Observability approach
 
