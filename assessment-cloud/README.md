@@ -2,7 +2,7 @@
 
 [Back to repository home](../README.md)
 
-| Part | Folder guide | Document or package |
+| Part Deliverables | Folder guide | Document or package |
 | --- | --- | --- |
 | 1. Architecture Design | [AWS architecture](aws-architecture/README.md) | [PDF](aws-architecture/aws-control-tower-architecture.pdf) |
 | 2. Design Document | [AWS EKS design](aws-design-document/README.md) | [PDF](aws-design-document/aws-eks-design-document.pdf) · [Markdown](aws-design-document/aws-eks-design-document.md) |
@@ -13,3 +13,12 @@ PDFs and downloadable packages live alongside their source files. Start with the
 architecture, continue through the design decisions, then review the implementation.
 The pipeline remains a draft pending adaptation of its deployment-slot terminology
 to AWS EKS.
+
+## 3. Assessment Requirements
+
+| Part | Focus | Read |
+| --- | --- | --- |
+| 1. Cloud Architecture | Reliability, security, scalability, cost, and governance | [Architecture approach](assessment-requirements/part-1-cloud-architecture.md) |
+| 2. Observability | Monitoring, logging, tracing, alerting, dashboards, and AI activity | [Observability approach](assessment-requirements/part-2-observability.md) |
+
+[Assessment Requirements overview](assessment-requirements/README.md)

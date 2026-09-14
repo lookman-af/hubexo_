@@ -7,7 +7,7 @@ HashiCorp Vault across Development, Test, Staging, and Production.
 
 Read the sections in order. Each folder contains its documents and supporting files.
 
-| Part | Guide | Main deliverable |
+| Part Deliverables | Guide | Main deliverable |
 | --- | --- | --- |
 | 1. Architecture Design | [Architecture overview](assessment-cloud/aws-architecture/README.md) | [PDF — 4 pages](assessment-cloud/aws-architecture/aws-control-tower-architecture.pdf) |
 | 2. Design Document | [Design overview](assessment-cloud/aws-design-document/README.md) | [PDF — 6 pages](assessment-cloud/aws-design-document/aws-eks-design-document.pdf) |
@@ -16,6 +16,15 @@ Read the sections in order. Each folder contains its documents and supporting fi
 
 The pipeline draft retains earlier deployment-slot terminology and needs adaptation
 before it serves as the AWS EKS deployment specification.
+
+## 3. Assessment Requirements
+
+| Part | Focus | Read |
+| --- | --- | --- |
+| 1. Cloud Architecture | Reliability, security, scalability, cost, and governance | [Architecture approach](assessment-cloud/assessment-requirements/part-1-cloud-architecture.md) |
+| 2. Observability | Monitoring, logging, tracing, alerting, dashboards, and AI activity | [Observability approach](assessment-cloud/assessment-requirements/part-2-observability.md) |
+
+[Assessment Requirements overview](assessment-cloud/assessment-requirements/README.md)
 
 ## Repository layout
 
@@ -27,6 +36,7 @@ assessment-cloud/
   aws-design-document/                Design PDF, readable Markdown, builder
   aws-terraform-vault/                 Terraform modules, stacks, examples, guides, ZIP
   deployment-pipeline/                Pipeline draft and status
+  assessment-requirements/            Concise requirements answers
 ```
 
 ## Implementation status
