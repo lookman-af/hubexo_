@@ -1,4 +1,4 @@
-# AWS Cloud Platform Assessment
+# DevOps & Cloud Engineer – Technical Assessment Brief
 
 Architecture and engineering assessment for an AWS platform using Amazon EKS and
 HashiCorp Vault across Development, Test, Staging, and Production.

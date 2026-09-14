@@ -111,15 +111,3 @@ explicit integration tasks. They are not silently claimed to be provisioned here
 
 See [verification.md](docs/verification.md) for validation status and cloud acceptance
 checks, and [deployment.md](docs/deployment.md) for the staged bootstrap sequence.
-
-## Official references
-
-- [AWS Resource Groups](https://docs.aws.amazon.com/ARG/latest/userguide/welcome.html)
-- [Amazon EKS best practices](https://docs.aws.amazon.com/eks/latest/best-practices/introduction.html)
-- [EKS IAM roles for service accounts](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html)
-- [Vault Kubernetes deployment guide](https://developer.hashicorp.com/vault/tutorials/kubernetes/kubernetes-raft-deployment-guide)
-- [Official Vault Helm configuration](https://developer.hashicorp.com/vault/docs/deploy/kubernetes/helm/configuration)
-- [Vault AWS KMS auto-unseal](https://developer.hashicorp.com/vault/docs/configuration/seal/awskms)
-- [Vault Kubernetes authentication](https://developer.hashicorp.com/vault/docs/auth/kubernetes)
-- [Vault Agent Injector annotations](https://developer.hashicorp.com/vault/docs/deploy/kubernetes/injector/annotations)
-- [Vault Terraform provider and state considerations](https://registry.terraform.io/providers/hashicorp/vault/latest/docs)

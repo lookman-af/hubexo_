@@ -20,9 +20,3 @@
 The document explains the platform design. Recovery objectives and retention periods
 are proposed assumptions pending business approval. Implementation scope and local
 checks are documented in the [Terraform guide](../aws-terraform-vault/README.md).
-
-## Source and rebuild
-
-[build_design_document.py](build_design_document.py) generates the PDF in this folder
-and the companion Markdown, using ReportLab and PyMuPDF. Temporary page renders are
-written to the repository's `tmp/pdfs/` directory for visual review.
